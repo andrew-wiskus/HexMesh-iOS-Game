@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557BF5641E2C114F00E8283E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557BF5631E2C114F00E8283E /* AppDelegate.swift */; };
+		557BF5661E2C114F00E8283E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557BF5651E2C114F00E8283E /* ViewController.swift */; };
+		557BF5691E2C114F00E8283E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557BF5671E2C114F00E8283E /* Main.storyboard */; };
+		557BF56C1E2C114F00E8283E /* HexMesh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 557BF56A1E2C114F00E8283E /* HexMesh.xcdatamodeld */; };
+		557BF56E1E2C114F00E8283E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557BF56D1E2C114F00E8283E /* Assets.xcassets */; };
+		557BF5711E2C114F00E8283E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557BF56F1E2C114F00E8283E /* LaunchScreen.storyboard */; };
+		557BF57C1E2C114F00E8283E /* HexMeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557BF57B1E2C114F00E8283E /* HexMeshTests.swift */; };
+		557BF5871E2C114F00E8283E /* HexMeshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557BF5861E2C114F00E8283E /* HexMeshUITests.swift */; };
+		558BCD931E2C290300C0DD44 /* imageedit_2_2725825980.gif in Resources */ = {isa = PBXBuildFile; fileRef = 558BCD901E2C290300C0DD44 /* imageedit_2_2725825980.gif */; };
+		558BCD941E2C290300C0DD44 /* imageedit_2_8335832078.gif in Resources */ = {isa = PBXBuildFile; fileRef = 558BCD911E2C290300C0DD44 /* imageedit_2_8335832078.gif */; };
+		558BCD951E2C290300C0DD44 /* imageedit_2_9337223887.gif in Resources */ = {isa = PBXBuildFile; fileRef = 558BCD921E2C290300C0DD44 /* imageedit_2_9337223887.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557BF5781E2C114F00E8283E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557BF5581E2C114F00E8283E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557BF55F1E2C114F00E8283E;
+			remoteInfo = HexMesh;
+		};
+		557BF5831E2C114F00E8283E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557BF5581E2C114F00E8283E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557BF55F1E2C114F00E8283E;
+			remoteInfo = HexMesh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		557BF5601E2C114F00E8283E /* HexMesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HexMesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		557BF5631E2C114F00E8283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557BF5651E2C114F00E8283E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		557BF5681E2C114F00E8283E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557BF56B1E2C114F00E8283E /* HexMesh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HexMesh.xcdatamodel; sourceTree = "<group>"; };
+		557BF56D1E2C114F00E8283E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557BF5701E2C114F00E8283E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557BF5721E2C114F00E8283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557BF5771E2C114F00E8283E /* HexMeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexMeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557BF57B1E2C114F00E8283E /* HexMeshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexMeshTests.swift; sourceTree = "<group>"; };
+		557BF57D1E2C114F00E8283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557BF5821E2C114F00E8283E /* HexMeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexMeshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557BF5861E2C114F00E8283E /* HexMeshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexMeshUITests.swift; sourceTree = "<group>"; };
+		557BF5881E2C114F00E8283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558BCD901E2C290300C0DD44 /* imageedit_2_2725825980.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageedit_2_2725825980.gif; sourceTree = "<group>"; };
+		558BCD911E2C290300C0DD44 /* imageedit_2_8335832078.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageedit_2_8335832078.gif; sourceTree = "<group>"; };
+		558BCD921E2C290300C0DD44 /* imageedit_2_9337223887.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = imageedit_2_9337223887.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557BF55D1E2C114F00E8283E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF5741E2C114F00E8283E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF57F1E2C114F00E8283E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557BF5571E2C114F00E8283E = {
+			isa = PBXGroup;
+			children = (
+				557BF5621E2C114F00E8283E /* HexMesh */,
+				557BF57A1E2C114F00E8283E /* HexMeshTests */,
+				557BF5851E2C114F00E8283E /* HexMeshUITests */,
+				557BF5611E2C114F00E8283E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557BF5611E2C114F00E8283E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557BF5601E2C114F00E8283E /* HexMesh.app */,
+				557BF5771E2C114F00E8283E /* HexMeshTests.xctest */,
+				557BF5821E2C114F00E8283E /* HexMeshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557BF5621E2C114F00E8283E /* HexMesh */ = {
+			isa = PBXGroup;
+			children = (
+				557BF5631E2C114F00E8283E /* AppDelegate.swift */,
+				557BF5651E2C114F00E8283E /* ViewController.swift */,
+				557BF5941E2C116200E8283E /* Storyboards */,
+				557BF56D1E2C114F00E8283E /* Assets.xcassets */,
+				558BCD901E2C290300C0DD44 /* imageedit_2_2725825980.gif */,
+				558BCD911E2C290300C0DD44 /* imageedit_2_8335832078.gif */,
+				558BCD921E2C290300C0DD44 /* imageedit_2_9337223887.gif */,
+				557BF56F1E2C114F00E8283E /* LaunchScreen.storyboard */,
+				557BF5721E2C114F00E8283E /* Info.plist */,
+				557BF56A1E2C114F00E8283E /* HexMesh.xcdatamodeld */,
+			);
+			path = HexMesh;
+			sourceTree = "<group>";
+		};
+		557BF57A1E2C114F00E8283E /* HexMeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				557BF57B1E2C114F00E8283E /* HexMeshTests.swift */,
+				557BF57D1E2C114F00E8283E /* Info.plist */,
+			);
+			path = HexMeshTests;
+			sourceTree = "<group>";
+		};
+		557BF5851E2C114F00E8283E /* HexMeshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557BF5861E2C114F00E8283E /* HexMeshUITests.swift */,
+				557BF5881E2C114F00E8283E /* Info.plist */,
+			);
+			path = HexMeshUITests;
+			sourceTree = "<group>";
+		};
+		557BF5941E2C116200E8283E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				557BF5671E2C114F00E8283E /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557BF55F1E2C114F00E8283E /* HexMesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557BF58B1E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMesh" */;
+			buildPhases = (
+				557BF55C1E2C114F00E8283E /* Sources */,
+				557BF55D1E2C114F00E8283E /* Frameworks */,
+				557BF55E1E2C114F00E8283E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexMesh;
+			productName = HexMesh;
+			productReference = 557BF5601E2C114F00E8283E /* HexMesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557BF5761E2C114F00E8283E /* HexMeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557BF58E1E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMeshTests" */;
+			buildPhases = (
+				557BF5731E2C114F00E8283E /* Sources */,
+				557BF5741E2C114F00E8283E /* Frameworks */,
+				557BF5751E2C114F00E8283E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557BF5791E2C114F00E8283E /* PBXTargetDependency */,
+			);
+			name = HexMeshTests;
+			productName = HexMeshTests;
+			productReference = 557BF5771E2C114F00E8283E /* HexMeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557BF5811E2C114F00E8283E /* HexMeshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557BF5911E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMeshUITests" */;
+			buildPhases = (
+				557BF57E1E2C114F00E8283E /* Sources */,
+				557BF57F1E2C114F00E8283E /* Frameworks */,
+				557BF5801E2C114F00E8283E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557BF5841E2C114F00E8283E /* PBXTargetDependency */,
+			);
+			name = HexMeshUITests;
+			productName = HexMeshUITests;
+			productReference = 557BF5821E2C114F00E8283E /* HexMeshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557BF5581E2C114F00E8283E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Wiskus";
+				TargetAttributes = {
+					557BF55F1E2C114F00E8283E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 478NA4CN29;
+						ProvisioningStyle = Automatic;
+					};
+					557BF5761E2C114F00E8283E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557BF55F1E2C114F00E8283E;
+					};
+					557BF5811E2C114F00E8283E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557BF55F1E2C114F00E8283E;
+					};
+				};
+			};
+			buildConfigurationList = 557BF55B1E2C114F00E8283E /* Build configuration list for PBXProject "HexMesh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557BF5571E2C114F00E8283E;
+			productRefGroup = 557BF5611E2C114F00E8283E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557BF55F1E2C114F00E8283E /* HexMesh */,
+				557BF5761E2C114F00E8283E /* HexMeshTests */,
+				557BF5811E2C114F00E8283E /* HexMeshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557BF55E1E2C114F00E8283E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BF5711E2C114F00E8283E /* LaunchScreen.storyboard in Resources */,
+				558BCD951E2C290300C0DD44 /* imageedit_2_9337223887.gif in Resources */,
+				557BF56E1E2C114F00E8283E /* Assets.xcassets in Resources */,
+				557BF5691E2C114F00E8283E /* Main.storyboard in Resources */,
+				558BCD931E2C290300C0DD44 /* imageedit_2_2725825980.gif in Resources */,
+				558BCD941E2C290300C0DD44 /* imageedit_2_8335832078.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF5751E2C114F00E8283E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF5801E2C114F00E8283E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557BF55C1E2C114F00E8283E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BF5661E2C114F00E8283E /* ViewController.swift in Sources */,
+				557BF56C1E2C114F00E8283E /* HexMesh.xcdatamodeld in Sources */,
+				557BF5641E2C114F00E8283E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF5731E2C114F00E8283E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BF57C1E2C114F00E8283E /* HexMeshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557BF57E1E2C114F00E8283E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557BF5871E2C114F00E8283E /* HexMeshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557BF5791E2C114F00E8283E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557BF55F1E2C114F00E8283E /* HexMesh */;
+			targetProxy = 557BF5781E2C114F00E8283E /* PBXContainerItemProxy */;
+		};
+		557BF5841E2C114F00E8283E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557BF55F1E2C114F00E8283E /* HexMesh */;
+			targetProxy = 557BF5831E2C114F00E8283E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		557BF5671E2C114F00E8283E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557BF5681E2C114F00E8283E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557BF56F1E2C114F00E8283E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557BF5701E2C114F00E8283E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557BF5891E2C114F00E8283E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557BF58A1E2C114F00E8283E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557BF58C1E2C114F00E8283E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 478NA4CN29;
+				INFOPLIST_FILE = HexMesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		557BF58D1E2C114F00E8283E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 478NA4CN29;
+				INFOPLIST_FILE = HexMesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		557BF58F1E2C114F00E8283E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HexMeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexMesh.app/HexMesh";
+			};
+			name = Debug;
+		};
+		557BF5901E2C114F00E8283E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HexMeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexMesh.app/HexMesh";
+			};
+			name = Release;
+		};
+		557BF5921E2C114F00E8283E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HexMeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HexMesh;
+			};
+			name = Debug;
+		};
+		557BF5931E2C114F00E8283E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HexMeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NewLion.HexMeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HexMesh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557BF55B1E2C114F00E8283E /* Build configuration list for PBXProject "HexMesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BF5891E2C114F00E8283E /* Debug */,
+				557BF58A1E2C114F00E8283E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557BF58B1E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BF58C1E2C114F00E8283E /* Debug */,
+				557BF58D1E2C114F00E8283E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557BF58E1E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BF58F1E2C114F00E8283E /* Debug */,
+				557BF5901E2C114F00E8283E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557BF5911E2C114F00E8283E /* Build configuration list for PBXNativeTarget "HexMeshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557BF5921E2C114F00E8283E /* Debug */,
+				557BF5931E2C114F00E8283E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		557BF56A1E2C114F00E8283E /* HexMesh.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				557BF56B1E2C114F00E8283E /* HexMesh.xcdatamodel */,
+			);
+			currentVersion = 557BF56B1E2C114F00E8283E /* HexMesh.xcdatamodel */;
+			path = HexMesh.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 557BF5581E2C114F00E8283E /* Project object */;
+}
